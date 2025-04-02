@@ -28,7 +28,7 @@ const Empdata=[
         city:"nalakheda",
         designation:"junior developer",
         salary:30000
-    },
+    }
 
 ]
 export default Empdata;

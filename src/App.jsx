@@ -1,23 +1,27 @@
-import Empdata from "./EmpData"
-import Empdesign from "./EmpDesign"
+import { BrowserRouter, Routes,Route } from "react-router-dom";
+import Layout from "./layout";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import NopageFound from "./pages/nopagefound";
+
 
 
 const App=()=>{
-
-const ans=Empdata.map((key)=><Empdesign  name={key.name} city={key.city}  design={key.designation} salary={key.salary}/>);
- return(
-        <>
-        <h1 align="center">Welcome to the Employee Data Base</h1>
-        <table border="1" align="center" width="600" height="200" bgcolor="yellow">
-            <tr bgcolor="red">
-                <th>Name</th>
-                <th>City</th>
-                <th>Designation</th>
-                <th>Salary</th>
-            </tr>
-            {ans}
-        </table>
-        </>
-    )
+    return (
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+              <Route path="home" element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="*" element={<NopageFound />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </>
+    );
 }
-export default App;
+export default App;
