@@ -7,15 +7,15 @@
 
 .nav{
 
-    position: fixed;
-    height: 110px;
+  
+    height: 80px;
     background-color:rgb(26, 24, 24) ;
     font-size: 20px;
     font-weight: bolder;
     
  
 }
-#anchor:hover{
+.anchor:hover{
   text-decoration: overline;
   
 }
@@ -470,4 +470,5 @@
   }
 }
 
- 
+ /* search bar */
+
