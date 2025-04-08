@@ -472,3 +472,11 @@
 
  /* search bar */
 
+.class{
+
+
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+}

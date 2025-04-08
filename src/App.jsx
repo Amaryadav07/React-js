@@ -301,23 +301,24 @@
 // }
 // export default App;
 // -----------------------------------------parameterized function-----------------------------
-const App=()=>{
-  const display=(dis)=>{
-    alert(`"my name is:${dis}"`)
-  }
-  return(
-    <>
+// const App=()=>{
+//   const display=(dis)=>{
+//     alert(`"my name is:${dis}"`)
+//   }
+//   return(
+//     <>
     
-    <h1>Welcome to Rect Event</h1>
-    <button onClick={()=>{display("AmarNath")}}>click here</button>
-    </>
-  )
+//     <h1>Welcome to Rect Event</h1>
+//     <button onClick={()=>{display("AmarNath")}}>click here</button>
+//     </>
+//   )
 
-}
-export default App;
+// }
+// export default App;
 
 
 // --------------------event handling--------------------------------
+ 
 // const App=()=>{
 //   const display=(nm,e)=>{
 //     alert("Name:"+nm +"btnName:"+e.target.name+ "value:" +e.target.value)
@@ -331,4 +332,282 @@ export default App;
 //   )
 
 // }
+// export default App;  
+
+
+// const App=()=>{
+  
+//   return(
+//     <>
+    
+//     <h1>Application Form</h1>
+
+     
+   
+//     </>
+//   )
+
+// }
+// export default App;  
+
+
+
+
+
+  // const App=()=>{
+  //   const Student=[
+  //     {
+  //      "rollno":121,
+  //      "name":"amar",
+  //      "city":"bhopal",
+  //      "fees":12000,
+  //      },
+  //      {
+  //       "rollno":122,
+  //       "name":"nikhil",
+  //       "city":"bhopal",
+  //       "fees":13000,
+  //       },
+  //       {
+  //         "rollno":123,
+  //         "name":"sapna",
+  //         "city":"bhopal",
+  //         "fees":14000,
+  //         },
+  //         {
+  //           "rollno":124,
+  //           "name":"harshal",
+  //           "city":"bhopal",
+  //           "fees":15000,
+  //           },
+  //           {
+  //             "rollno":125,
+  //             "name":"ana   ",
+  //             "city":"bhopal",
+  //             "fees":16000,
+  //             }
+  // ]
+  //    const ans=Student.map((key)=>{
+
+  //       return(
+  //         <>  
+  //         <tr >
+  //           <td>{key.rollno}</td>
+  //           <td>{key.name}</td>
+  //           <td>{key.city}</td>
+  //           <td>{key.fees}</td>
+  //         </tr>
+  //         </>
+  //    )
+
+      
+  //     });
+
+  //     return(
+  //       <>  
+  //      <table border="1" width="400">
+  //       <tr>
+  //         <th>rollno</th>
+  //         <th>name</th>
+  //         <th>city</th>
+  //         <th>fees</th>
+  //       </tr>
+  //       {ans}
+  //      </table>
+     
+  //     </>
+    
+  //        )
+  //       }
+  //       export default App;
+
+
+ 
+
+  // const App=()=>{
+  //   const display=(nm,e)=>{
+  //     alert("Name:"+nm +"btnName:"+e.target.name+ "value:" +e.target.value)
+  //     console.log()
+  //   }
+  //   return(
+  //     <>
+      
+      
+  //     <button name="myBTN" value="btn0" onClick={(e)=>{display("amarnath",e)}}>click here</button>
+  //     </>
+  //   )
+  
+  // }
+  // export default App;
+
+
+
+// import { useState } from "react";
+// const App=()=>{
+// const [name,setName]= useState("khushi");
+// return(
+//   <>
+//   <h1>welcome my name is {name}</h1>
+//   <button onClick={()=>{setName("amar")}}>click me</button>
+  
+  
+  
+  
+//   </>
+// )
+
+
+
+// }
 // export default App;
+
+
+
+// import { useState } from "react";
+// const App=()=>{
+// const [color,setName]= useState("red");
+// return(
+//   <>
+//   <h1 style={{color:color}}>my favourite color is {color}</h1>
+//   <button onClick={()=>{setName("green")}}>green color</button>
+//   <button onClick={()=>{setName("red")}}>red color</button>
+//   <button onClick={()=>{setName("blue")}}>blue color</button>
+//   <button onClick={()=>{setName("pink")}}>pink color</button>
+  
+ 
+//   </>
+// )
+
+// }
+// export default App;
+
+
+//  
+
+
+
+// import { useState,useEffect } from "react";
+
+// const App=()=>{
+//   const [count,setCount]=useState(0);
+
+// useEffect(()=>{
+//   setTimeout(()=>{
+
+//    setCount(count+1)
+
+//   },4000);
+// })
+//   return (
+//     <>
+//       <h1 align="center">My Counter App:{count}</h1>
+     
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+// import { useState,useEffect } from "react";
+
+// const App=()=>{
+//   const [count,setCount]=useState(0);
+
+// useEffect(()=>{
+// setTimeout(()=>{
+//   setCount(count+1)
+// },2000)
+ 
+// },[]);
+// return (
+//     <>
+//     <p align="center">Hook useEffect</p>
+//       <h1 align="center">My React App:{count}</h1>
+//       </>
+//   );
+// }
+// export default App;
+
+
+
+
+// import { useState,useEffect } from "react";
+
+// const App=()=>{
+//   const [count,setCount]=useState(0);
+//   const[multi,setMulti]=useState(0)
+
+// useEffect(()=>{
+// setMulti(count*2)
+ 
+// },[count]);
+// return (
+//     <>
+  
+//       <h1 >My React Counter:{count}</h1>
+//       <h2>Multiplication:{multi}</h2>
+//       <button onClick={()=>{setCount(count+1)}}>click here</button>
+//       </>
+//   );
+// }
+// export default App;
+
+
+// import { useState} from "react";
+
+// const App=()=>{
+ 
+// const[name,setName]=useState("");
+// const[city,setCity]=useState("");
+
+// const handleSubmit=()=>{
+// alert(`My Name:${name} City:${city}`)
+// }
+// return (
+//     <>
+//    <h1 >My Form</h1>
+//     name: <input type="text"  value={name} onChange={(e)=>{setName(e.target.value)}} />
+//     <br />
+//     city: <input type="text" name="" id="" value={city} onChange={(e)=>{setCity(e.target.value)}} />
+//     <br />
+//     <button onClick={handleSubmit} >save</button>
+//       </>
+//   );
+// }
+// export default App;
+
+import {useState} from "react";
+const App=()=>{
+const[input,setInput]=useState({});
+
+  const handleInput=(e)=>{
+  let name=e.target.name;
+  let value=e.target.value;
+
+  setInput(values=>({...values,[name]:value}))
+  console.log(input)
+  }
+ 
+  return(
+    <>
+    <h1>Application form</h1>
+    rollno: <input type="text" name="rollno" onChange={handleInput}/>
+    <br /><br />
+    name: <input type="text" name="name" onChange={handleInput} />
+
+    <br />
+
+    <br />
+    city: <input type="text" name="city" onChange={handleInput} />
+
+    <br /><br />
+    fees: <input type="text" name="fees" onChange={handleInput} />
+   <br />
+   <br />
+    <button >Save!!</button>
+
+    </>
+  )
+}
+export default App;
