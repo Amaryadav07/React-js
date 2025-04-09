@@ -12,8 +12,6 @@
 // import myimg8 from "./newreactlogo.png";
 // import myimg9 from "./router.png";
 
-
-
 // const App = () => {
 //   useEffect(() => {
 //     AOS.init({ duration: 1000 });
@@ -43,12 +41,11 @@
 //               <Nav.Link href="#gallery" style={{color:"white"}} className='anchor'  data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000">Gallery</Nav.Link>
 //               <Nav.Link href="#about us" style={{color:"white"}} className='anchor' data-aos="fade-down" data-aos-delay="200" data-aos-duration="2500">About Us</Nav.Link>
 //               <Nav.Link href="#testimonial" style={{color:"white"}}className='anchor' data-aos="fade-down" data-aos-delay="200" data-aos-duration="3000">Testimonial</Nav.Link>
-          
-              
+
 // <button class="Btn"  data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
-  
+
 //   <div class="sign"><svg viewBox="0 0 512 512"><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path></svg></div>
-  
+
 //   <div class="text">Login</div>
 // </button>
 //  </Nav>
@@ -56,8 +53,6 @@
 //         </Container>
 //       </Navbar>
 
-      
-      
 //       <Carousel>
 //         <Carousel.Item>
 //           <img className="d-block w-100 carousel-img" src={myimg1} alt="First slide" />
@@ -89,8 +84,7 @@
 //       textAlign: 'center',
 //       fontFamily: 'sans-serif'
 //     }}>
-     
-     
+
 //       <div data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
 //         <a href="https://react.dev/learn" style={{
 //           color: '#61dafb',
@@ -98,9 +92,9 @@
 //           textDecoration: 'none',
 //           fontWeight: '800',
 //           fontSize:"30px",
-         
+
 //         }}  >Learn React</a>
-       
+
 //         <a href="https://react.dev/reference" style={{
 //           color: '#61dafb',
 //           margin: '0 10px',
@@ -127,8 +121,6 @@
 //       <p style={{ fontSize: '1.2rem', marginBottom: '32px' }}>
 //         People love web and native apps for different reasons. React lets you build both web apps and native apps using the same skills. It leans upon each platform's unique strengths to let your interfaces feel just right on every platform.
 //       </p>
-
-      
 
 //       <section style={{ marginBottom: '48px' }}>
 //         <h2 style={{
@@ -173,11 +165,11 @@
 // 	<div class="👉"></div>
 // 	<div class="👉"></div>
 // 	<div class="👉"></div>
-// 	<div class="🌴"></div>		
+// 	<div class="🌴"></div>
 // 	<div class="👍"></div>
 // </div>
 //         <h1 className="text-center mb-4" ><span id='card'>Welcome To Chai Aur </span><span id='change'>React </span></h1>
-       
+
 //         <Row className="g-4">
 //           {cardsData.map((card) => (
 //             <Col key={card.id} lg={3} md={6}>
@@ -197,19 +189,15 @@
 //         </Row>
 //       </Container>
 //       </div>
-      
+
 //     </header>
 
-    
-      
-      
-      
 //       <footer className="footer bg-dark text-white py-4">
 //         <Container>
 //           <Row>
 //             <Col md={4}>
 //               <h5>About Us</h5>
-//               <p>React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of these components efficiently. React utilizes a virtual DOM, which optimizes updates and improves performance. 
+//               <p>React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of these components efficiently. React utilizes a virtual DOM, which optimizes updates and improves performance.
 // </p>
 //             </Col>
 //             <Col md={4}>
@@ -231,7 +219,7 @@
 //           <div className="text-center mt-3">
 //             <p>&copy; {new Date().getFullYear()} Created By AmarNath. All rights reserved.</p>
 //           </div>
-          
+
 // <ul class="wrapper">
 //   <li class="icon facebook">
 //     <span class="tooltip">Facebook</span>
@@ -284,15 +272,13 @@
 
 // export default App;
 
-
-
 // const App=()=>{
 //   const display=()=>{
 //     alert("this is clicked")
 //   }
 //   return(
 //     <>
-    
+
 //     <h1>Welcome to Rect Event</h1>
 //     <button onClick={display}>click here</button>
 //     </>
@@ -307,7 +293,7 @@
 //   }
 //   return(
 //     <>
-    
+
 //     <h1>Welcome to Rect Event</h1>
 //     <button onClick={()=>{display("AmarNath")}}>click here</button>
 //     </>
@@ -316,131 +302,115 @@
 // }
 // export default App;
 
-
 // --------------------event handling--------------------------------
- 
+
 // const App=()=>{
 //   const display=(nm,e)=>{
 //     alert("Name:"+nm +"btnName:"+e.target.name+ "value:" +e.target.value)
 //   }
 //   return(
 //     <>
-    
-    
+
 //     <button name="myBTN" value="btn0" onClick={(e)=>{display("amarnath",e)}}>click here</button>
 //     </>
 //   )
 
 // }
-// export default App;  
-
+// export default App;
 
 // const App=()=>{
-  
+
 //   return(
 //     <>
-    
+
 //     <h1>Application Form</h1>
 
-     
-   
 //     </>
 //   )
 
 // }
-// export default App;  
+// export default App;
 
+// const App=()=>{
+//   const Student=[
+//     {
+//      "rollno":121,
+//      "name":"amar",
+//      "city":"bhopal",
+//      "fees":12000,
+//      },
+//      {
+//       "rollno":122,
+//       "name":"nikhil",
+//       "city":"bhopal",
+//       "fees":13000,
+//       },
+//       {
+//         "rollno":123,
+//         "name":"sapna",
+//         "city":"bhopal",
+//         "fees":14000,
+//         },
+//         {
+//           "rollno":124,
+//           "name":"harshal",
+//           "city":"bhopal",
+//           "fees":15000,
+//           },
+//           {
+//             "rollno":125,
+//             "name":"ana   ",
+//             "city":"bhopal",
+//             "fees":16000,
+//             }
+// ]
+//    const ans=Student.map((key)=>{
 
+//       return(
+//         <>
+//         <tr >
+//           <td>{key.rollno}</td>
+//           <td>{key.name}</td>
+//           <td>{key.city}</td>
+//           <td>{key.fees}</td>
+//         </tr>
+//         </>
+//    )
 
+//     });
 
+//     return(
+//       <>
+//      <table border="1" width="400">
+//       <tr>
+//         <th>rollno</th>
+//         <th>name</th>
+//         <th>city</th>
+//         <th>fees</th>
+//       </tr>
+//       {ans}
+//      </table>
 
-  // const App=()=>{
-  //   const Student=[
-  //     {
-  //      "rollno":121,
-  //      "name":"amar",
-  //      "city":"bhopal",
-  //      "fees":12000,
-  //      },
-  //      {
-  //       "rollno":122,
-  //       "name":"nikhil",
-  //       "city":"bhopal",
-  //       "fees":13000,
-  //       },
-  //       {
-  //         "rollno":123,
-  //         "name":"sapna",
-  //         "city":"bhopal",
-  //         "fees":14000,
-  //         },
-  //         {
-  //           "rollno":124,
-  //           "name":"harshal",
-  //           "city":"bhopal",
-  //           "fees":15000,
-  //           },
-  //           {
-  //             "rollno":125,
-  //             "name":"ana   ",
-  //             "city":"bhopal",
-  //             "fees":16000,
-  //             }
-  // ]
-  //    const ans=Student.map((key)=>{
+//     </>
 
-  //       return(
-  //         <>  
-  //         <tr >
-  //           <td>{key.rollno}</td>
-  //           <td>{key.name}</td>
-  //           <td>{key.city}</td>
-  //           <td>{key.fees}</td>
-  //         </tr>
-  //         </>
-  //    )
+//        )
+//       }
+//       export default App;
 
-      
-  //     });
+// const App=()=>{
+//   const display=(nm,e)=>{
+//     alert("Name:"+nm +"btnName:"+e.target.name+ "value:" +e.target.value)
+//     console.log()
+//   }
+//   return(
+//     <>
 
-  //     return(
-  //       <>  
-  //      <table border="1" width="400">
-  //       <tr>
-  //         <th>rollno</th>
-  //         <th>name</th>
-  //         <th>city</th>
-  //         <th>fees</th>
-  //       </tr>
-  //       {ans}
-  //      </table>
-     
-  //     </>
-    
-  //        )
-  //       }
-  //       export default App;
+//     <button name="myBTN" value="btn0" onClick={(e)=>{display("amarnath",e)}}>click here</button>
+//     </>
+//   )
 
-
- 
-
-  // const App=()=>{
-  //   const display=(nm,e)=>{
-  //     alert("Name:"+nm +"btnName:"+e.target.name+ "value:" +e.target.value)
-  //     console.log()
-  //   }
-  //   return(
-  //     <>
-      
-      
-  //     <button name="myBTN" value="btn0" onClick={(e)=>{display("amarnath",e)}}>click here</button>
-  //     </>
-  //   )
-  
-  // }
-  // export default App;
-
-
+// }
+// export default App;
 
 // import { useState } from "react";
 // const App=()=>{
@@ -449,19 +419,12 @@
 //   <>
 //   <h1>welcome my name is {name}</h1>
 //   <button onClick={()=>{setName("amar")}}>click me</button>
-  
-  
-  
-  
+
 //   </>
 // )
 
-
-
 // }
 // export default App;
-
-
 
 // import { useState } from "react";
 // const App=()=>{
@@ -473,18 +436,14 @@
 //   <button onClick={()=>{setName("red")}}>red color</button>
 //   <button onClick={()=>{setName("blue")}}>blue color</button>
 //   <button onClick={()=>{setName("pink")}}>pink color</button>
-  
- 
+
 //   </>
 // )
 
 // }
 // export default App;
 
-
-//  
-
-
+//
 
 // import { useState,useEffect } from "react";
 
@@ -501,13 +460,12 @@
 //   return (
 //     <>
 //       <h1 align="center">My Counter App:{count}</h1>
-     
+
 //     </>
 //   );
 // }
 
 // export default App;
-
 
 // import { useState,useEffect } from "react";
 
@@ -518,7 +476,7 @@
 // setTimeout(()=>{
 //   setCount(count+1)
 // },2000)
- 
+
 // },[]);
 // return (
 //     <>
@@ -529,9 +487,6 @@
 // }
 // export default App;
 
-
-
-
 // import { useState,useEffect } from "react";
 
 // const App=()=>{
@@ -540,11 +495,11 @@
 
 // useEffect(()=>{
 // setMulti(count*2)
- 
+
 // },[count]);
 // return (
 //     <>
-  
+
 //       <h1 >My React Counter:{count}</h1>
 //       <h2>Multiplication:{multi}</h2>
 //       <button onClick={()=>{setCount(count+1)}}>click here</button>
@@ -553,11 +508,10 @@
 // }
 // export default App;
 
-
 // import { useState} from "react";
 
 // const App=()=>{
- 
+
 // const[name,setName]=useState("");
 // const[city,setCity]=useState("");
 
@@ -577,37 +531,112 @@
 // }
 // export default App;
 
-import {useState} from "react";
-const App=()=>{
-const[input,setInput]=useState({});
+// import { useState } from "react";
+// const App = () => {
+//   const [input, setInput] = useState({});
+//   const handleInput = (e) => {
+//     let name = e.target.name;
+//     let value = e.target.value;
+//     setInput((values) => ({ ...values, [name]: value }));
+//     console.log(input);
+//   };
+//   return (
+//     <>
+//       <h1>Application form</h1>
+//       rollno: <input type="text" name="rollno" onChange={handleInput} />
+//       <br />
+//       <br />
+//       name: <input type="text" name="name" onChange={handleInput} />
+//       <br /> <br />
+//       city: <input type="text" name="city" onChange={handleInput} />
+//       <br />
+//       <br />
+//       fees: <input type="text" name="fees" onChange={handleInput} />
+//       <br />
+//       <br />
+//       <button>Save</button>
+//     </>
+//   );
+// };
+// export default App;
 
-  const handleInput=(e)=>{
-  let name=e.target.name;
-  let value=e.target.value;
 
-  setInput(values=>({...values,[name]:value}))
-  console.log(input)
-  }
- 
-  return(
-    <>
-    <h1>Application form</h1>
-    rollno: <input type="text" name="rollno" onChange={handleInput}/>
-    <br /><br />
-    name: <input type="text" name="name" onChange={handleInput} />
+import { useState, useEffect } from "react";
 
-    <br />
+const App = () => {
+  const [input, setInput] = useState({});
 
-    <br />
-    city: <input type="text" name="city" onChange={handleInput} />
+  const handleInput = (e) => {
+    let name = e.target.name;
+    let value = e.target.value;
 
-    <br /><br />
-    fees: <input type="text" name="fees" onChange={handleInput} />
-   <br />
-   <br />
-    <button >Save!!</button>
+    setInput((values) => ({ ...values, [name]: value }));
+  };
 
-    </>
-  )
-}
+  useEffect(() => {
+    console.log(input);
+  }, [input]);
+
+  const formStyle = {
+    maxWidth: "400px",
+    margin: "50px auto",
+    padding: "20px",
+    borderRadius: "10px",
+    backgroundColor: "#f9f9f9",
+    boxShadow: "0 0 10px rgba(0,0,0,0.1)",
+    fontFamily: "Arial, sans-serif"
+  };
+
+  const labelStyle = {
+    display: "block",
+    marginBottom: "8px",
+    fontWeight: "bold"
+  };
+
+  const inputStyle = {
+    width: "100%",
+    padding: "8px",
+    marginBottom: "20px",
+    border: "1px solid #ccc",
+    borderRadius: "5px",
+    fontSize: "16px"
+  };
+
+  const buttonStyle = {
+    width: "100%",
+    padding: "10px",
+    backgroundColor: "#4CAF50",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
+    fontSize: "16px"
+  };
+
+  return (
+    <div style={formStyle}>
+      <h1 style={{ textAlign: "center" }}>Form Data Handling</h1>
+
+      <label style={labelStyle}>Name:</label>
+      <input type="text" name="name" onChange={handleInput} style={inputStyle} />
+
+      <label style={labelStyle}>Age:</label>
+      <input type="number" name="age" onChange={handleInput} style={inputStyle} />
+
+      <label style={labelStyle}>Email:</label>
+      <input type="email" name="email" onChange={handleInput} style={inputStyle} />
+
+      <label style={labelStyle}>City:</label>
+      <input type="text" name="city" onChange={handleInput} style={inputStyle} />
+
+      <button style={buttonStyle}>Save</button>
+
+      <pre style={{ background: "#eef", padding: "10px", marginTop: "20px" }}>
+        {JSON.stringify(input, null, 4)}
+      </pre>
+    </div>
+  );
+};
+
 export default App;
+
